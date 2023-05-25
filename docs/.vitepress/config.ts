@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { sideBar } from './sidebar'
 
 export default defineConfig({
   title: '@Eiog/Note',
@@ -17,12 +18,25 @@ export default defineConfig({
     ],
     nav: [
       { text: '首页', link: '/' },
-    ],
-    sidebar: [
+      { text: '导航', link: '/nav/' },
+      { text: '笔记', link: '/note/' },
       {
-        text: '前端',
+        text: '相关资源',
+        items: [
+          { text: 'VitePress', link: 'https://vitepress.vuejs.org/' },
+        ],
       },
     ],
+    sidebar: sideBar,
+    sidebarMenuLabel: '目录',
+    outline: {
+      level: 'deep',
+      label: '本页目录',
+    },
   },
+  vite: {
+    plugins: [
 
+    ],
+  },
 })

@@ -9,11 +9,11 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/hello
+      text: 🎉前端笔记
+      link: /note/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: 🎯资源导航
+      link: /nav/
 ---
 
 
