@@ -33,6 +33,9 @@ export default defineConfig({
       level: 'deep',
       label: '本页目录',
     },
+    search: {
+      provider: 'local',
+    },
   },
   vite: {
     plugins: [
