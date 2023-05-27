@@ -43,6 +43,10 @@ export default defineConfig({
       md.use(containerPreview)
       md.use(componentPreview)
     },
+    theme: {
+      dark: 'dracula-soft',
+      light: 'vitesse-light',
+    },
   },
   vite: {
     plugins: [
