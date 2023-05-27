@@ -1,6 +1,9 @@
 import { h } from 'vue'
+import type { App } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
+import { NaiveUIContainer } from '@vitepress-demo-preview/component'
+import '@vitepress-demo-preview/component/dist/style.css'
 
 export default {
   extends: DefaultTheme,
@@ -10,5 +13,8 @@ export default {
     return h(DefaultTheme.Layout, { class: className }, {
       'nav-bar-title-after': () => h('span', {}, { default: () => '🎉' }),
     })
+  },
+  enhanceApp({ app }: { app: App }) {
+    app.component('DemoPreview', NaiveUIContainer)
   },
 }

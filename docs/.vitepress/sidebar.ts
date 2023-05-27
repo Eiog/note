@@ -19,9 +19,25 @@ export const sideBar: DefaultTheme.Config['sidebar'] = {
         },
         {
           text: 'Css',
-          link: '/note/css/',
+          collapsed: false,
+          items: [
+            { text: 'Grid 布局', link: '/note/css/grid' },
+          ],
         },
       ],
     },
+    {
+      text: '工具',
+      collapsed: false,
+      items: [
+        {
+          text: 'MarkDown 基本语法',
+          link: '/note/MarkDown 基本语法',
+        },
+      ],
+    },
+  ],
+  '/tools/': [
+
   ],
 }

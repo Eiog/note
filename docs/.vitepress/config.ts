@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { sideBar } from './sidebar'
 
 export default defineConfig({
@@ -35,6 +36,12 @@ export default defineConfig({
     },
     search: {
       provider: 'local',
+    },
+  },
+  markdown: {
+    config(md) {
+      md.use(containerPreview)
+      md.use(componentPreview)
     },
   },
   vite: {
