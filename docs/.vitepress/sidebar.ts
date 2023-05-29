@@ -37,7 +37,4 @@ export const sideBar: DefaultTheme.Config['sidebar'] = {
       ],
     },
   ],
-  '/tools/': [
-
-  ],
 }

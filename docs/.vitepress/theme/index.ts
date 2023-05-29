@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { NaiveUIContainer } from '@vitepress-demo-preview/component'
 import '@vitepress-demo-preview/component/dist/style.css'
+import './vars.css'
 
 export default {
   extends: DefaultTheme,

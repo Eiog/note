@@ -2,10 +2,10 @@
 layout: home
 hero:
   name: 余月🕹️笔记
-  text: 邪物退散 👾
+  text: 邪物退散
   tagline: even pigs can fly ~
   image:
-    src: /favicon.svg
+    src: /home-image.png
     alt: VitePress
   actions:
     - theme: brand
@@ -15,5 +15,3 @@ hero:
       text: 🎯资源导航
       link: /nav/
 ---
-
-

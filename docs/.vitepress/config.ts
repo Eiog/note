@@ -9,8 +9,8 @@ export default defineConfig({
     ['link', { rel: 'svg', href: '/favicon.svg' }],
   ],
   themeConfig: {
-    siteTitle: '@Eiog/Note',
-    logo: '/favicon.svg',
+    siteTitle: '余月笔记',
+    logo: '/哥玛兽.svg',
     socialLinks: [
       {
         icon: 'github',
