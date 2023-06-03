@@ -7,6 +7,13 @@ export const sideBar: DefaultTheme.Config['sidebar'] = {
       collapsed: false,
       items: [
         {
+          text: '各种配置',
+          collapsed: false,
+          items: [
+            { text: '为ts项目添加commit规范', link: '/note/各种配置/为ts项目添加commit规范' },
+          ],
+        },
+        {
           text: 'JavaScript',
           collapsed: false,
           items: [
@@ -15,7 +22,10 @@ export const sideBar: DefaultTheme.Config['sidebar'] = {
         },
         {
           text: 'TypeScript',
-          link: '/note/ts/',
+          collapsed: false,
+          items: [
+            { text: '基础类型', link: '/note/ts/基础类型' },
+          ],
         },
         {
           text: 'Css',
