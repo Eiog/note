@@ -145,3 +145,17 @@ npx --no-install commitlint --edit "$1"
   }
 }
 ```
+
+### 5.在 `package.json` 中添加
+
+```json
+"gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint . --fix",
+      "git add"
+    ]
+  }
+```
