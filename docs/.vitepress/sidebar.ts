@@ -11,6 +11,7 @@ export const sideBar: DefaultTheme.Config['sidebar'] = {
           collapsed: false,
           items: [
             { text: '为ts项目添加commit规范', link: '/note/各种配置/为ts项目添加commit规范' },
+            { text: '使用simple-git-hooks替换husky', link: '/note/各种配置/使用simple-git-hooks替换husky' },
           ],
         },
         {
