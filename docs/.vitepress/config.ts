@@ -6,11 +6,11 @@ export default defineConfig({
   title: '@Eiog/Note',
   description: '笔记',
   head: [
-    ['link', { rel: 'svg', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ],
   themeConfig: {
     siteTitle: '余月笔记',
-    logo: '/哥玛兽.svg',
+    logo: '/favicon.svg',
     socialLinks: [
       {
         icon: 'github',
